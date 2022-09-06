@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -13,11 +11,11 @@ function Home() {
       dispatch(fetchData());
     }
   }, []);
-  const Europe = covidReducer.filter((item) => item.continent === 'Europe')
+  const Europe = covidReducer.filter((item) => item.continent === 'Europe');
   return (
-    <div className='body'>
-      
-        {
+    <div className="body">
+
+      {
         Europe.map((data) => {
           const {
             country,
@@ -25,14 +23,13 @@ function Home() {
           } = data;
 
           return (
-            <Link key={country} to={{pathname: `/country/${country}`}}>
+            <Link key={country} to={{ pathname: `/country/${country}` }}>
 
+              <div className="main-cont" key={country}>
+                {country}
+                <img className="img" src={flag} alt={country} />
 
-            <div className="main-cont" key={country}>
-              {country}
-              <img src={flag} alt={country} />
-
-            </div>
+              </div>
             </Link>
 
           );

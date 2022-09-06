@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3a386c82;
+    background-color: #66667f;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     margin:auto;
@@ -67,20 +67,20 @@ body {
     margin-bottom: 10px;
     text-align: center;
   }
-  .img {
+  /* .img {
     width: 50%;
     height: 50%;
     margin-left: 10px;
-  }
+  } */
 
-  img, svg {
+  .img {
     width: 294px;
     height: 200px;
   }
   
   .main-cont {
     display: flex;
-    background-color: aqua;
+    background-color: #CCCCFF;
     padding: 5px 15px;
     flex-direction: column;
     align-items: center;
