@@ -36,10 +36,13 @@ body {
   
   .mic {
     margin-right: 10px;
+    width: 20px;
+    height: 20px;
   }
   
   .set {
     width: 20px;
+    height: 20px;
   }
   
   
@@ -70,10 +73,10 @@ body {
     margin-left: 10px;
   }
 
-  /* img, svg {
+  img, svg {
     width: 294px;
     height: 200px;
-  } */
+  }
   
   .main-cont {
     display: flex;
