@@ -17,8 +17,8 @@ function Navbar() {
       </div>
       <h2>COVID-19 DATA</h2>
       <div className="top-right">
-        <img src={mic} alt="" />
-        <img src={set} alt="#" />
+        <img className="mic" src={mic} alt="" />
+        <img className="set" src={set} alt="#" />
       </div>
     </nav>
   );

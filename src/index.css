@@ -45,7 +45,7 @@ body {
   
   .body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
     gap: 10px;
     margin-top: 20px;
@@ -70,15 +70,16 @@ body {
     margin-left: 10px;
   }
 
-  img, svg {
+  /* img, svg {
     width: 294px;
     height: 200px;
-  }
+  } */
   
   .main-cont {
     display: flex;
     background-color: aqua;
     padding: 5px 15px;
+    flex-direction: column;
     align-items: center;
     border-radius: 1rem;
   }
