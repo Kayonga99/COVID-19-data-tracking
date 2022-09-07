@@ -41,16 +41,21 @@ function Home() {
           const {
             country,
             flag,
+            todayCases,
           } = data;
 
           return (
             <Link key={country} to={{ pathname: `/country/${country}` }}>
 
               <div className="main-cont" key={country}>
-                <h2 className="country">{country}</h2>
                 <div className="image">
                   <img className="img" src={flag} alt={country} />
                 </div>
+                <h2 className="country">{country}</h2>
+                <h2>
+                  Cases:
+                  {todayCases}
+                </h2>
 
               </div>
             </Link>
