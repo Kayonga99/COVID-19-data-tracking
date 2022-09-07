@@ -60,8 +60,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The design is nice, thanks to [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio). for the great work designing it.
 
 ## 📝 License
