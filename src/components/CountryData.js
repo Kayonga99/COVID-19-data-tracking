@@ -17,7 +17,7 @@ function CountryData() {
   return (
     <div>
 
-      <ul key={findCountry.country}>
+      <ul className="ulClass" key={findCountry.country}>
         <p>
           Country:
           {findCountry.country}

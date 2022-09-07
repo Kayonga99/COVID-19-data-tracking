@@ -87,6 +87,12 @@ body {
     color: gray;
 }
 
+.ulClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .data {
   display: flex;
   flex-direction: column;
