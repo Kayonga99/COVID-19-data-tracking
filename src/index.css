@@ -48,8 +48,8 @@ body {
 
 .body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(90deg, #ccffcc 0%, #e5e5e5 100%);
   gap: 10px;
   margin-top: 20px;
   padding: 20px;
@@ -69,7 +69,7 @@ body {
 }
 
 .img {
-    width: 95%;
+    width: 75%;
     height: 149px;
     margin-left: 10px;
   }
@@ -107,4 +107,13 @@ body {
   padding: 10px 15px;
   border-radius: 10px;
   font-weight: bold;
+}
+
+/* media querries  */
+
+@media screen and (min-width: 768px) {
+    .body  {
+  grid-template-columns: 1fr 1fr 1fr;
+
+    }
 }
