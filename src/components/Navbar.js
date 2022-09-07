@@ -6,7 +6,7 @@ import set from '../images/settings-svgrepo-com.svg';
 
 function Navbar() {
   const place = useLocation();
-  const back = <TiArrowBackOutline />;
+  const back = <TiArrowBackOutline className="back" />;
   const goBack = place.pathname.includes('country') ? back : '';
   return (
     <nav className="navbar">
@@ -17,8 +17,13 @@ function Navbar() {
       </div>
       <h2>COVID-19 DATA</h2>
       <div className="top-right">
-        <img className="mic" src={mic} alt="" />
-        <img className="set" src={set} alt="#" />
+
+        <div className="top-right">
+          <img src={mic} className="mic" alt="" />
+        </div>
+        <div className="top-right">
+          <img className="set" src={set} alt="#" />
+        </div>
       </div>
     </nav>
   );
