@@ -15,7 +15,7 @@ function Navbar() {
           {goBack}
         </NavLink>
       </div>
-      <h2>COVID-19 DATA</h2>
+      <h2 className="c-data">COVID-19 DATA</h2>
       <div className="top-right">
 
         <div className="top-right">
