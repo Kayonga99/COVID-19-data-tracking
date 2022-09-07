@@ -69,8 +69,8 @@ body {
 }
 
 .img {
-    width: 75%;
-    height: 149px;
+    width: 50%;
+    height: 50%;
     margin-left: 10px;
   }
 
@@ -116,4 +116,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 
     }
+
+    .img {
+        width: 75%;
+        height: 149px;
+        margin-left: 10px;
+      }
 }
