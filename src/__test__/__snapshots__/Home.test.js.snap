@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render Home 1`] = `
+Array [
+  <div
+    className="heading"
+  >
+     
+    <h1>
+      EUROPE COUNTRIES' COVID-19 DATA
+    </h1>
+     
+  </div>,
+  <div
+    className="input-box"
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Serch European Country ..."
+      type="text"
+      value=""
+    />
+  </div>,
+  <div
+    className="body"
+  />,
+]
+`;
+
+exports[`Render components render Navbar 1`] = `
+<nav
+  className="navbar"
+>
+  <div>
+    <a
+      aria-current="page"
+      className="active"
+      exact="true"
+      href="/"
+      onClick={[Function]}
+    />
+  </div>
+  <h2
+    className="c-data"
+  >
+    COVID-19 DATA
+  </h2>
+  <div
+    className="top-right"
+  >
+    <div
+      className="top-right"
+    >
+      <img
+        alt=""
+        className="mic"
+        src="mic-svgrepo-com.svg"
+      />
+    </div>
+    <div
+      className="top-right"
+    >
+      <img
+        alt="#"
+        className="set"
+        src="settings-svgrepo-com.svg"
+      />
+    </div>
+  </div>
+</nav>
+`;
