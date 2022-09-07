@@ -51,11 +51,13 @@ function Home() {
                 <div className="image">
                   <img className="img" src={flag} alt={country} />
                 </div>
-                <h2 className="country">{country}</h2>
-                <h2>
-                  Cases:
-                  {todayCases}
-                </h2>
+                <ul className="covid-d">
+                  <li className="country">{country}</li>
+                  <li>
+                    Cases:
+                    {todayCases}
+                  </li>
+                </ul>
 
               </div>
             </Link>
