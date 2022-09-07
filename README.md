@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore
+# COVID-19 tracking
 
-> A single page bookstore app. This app allows the user to add and remove books with Author, Category and Title
+> A single page application thats displays COVID-19 information, the app shows the country name, flag active cases, number of deaths and total number recovered in a day.
 
 Get started by copying and pasting the following in your terminal:
 
