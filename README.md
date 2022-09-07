@@ -28,7 +28,7 @@ npm start
 http://localhost:3000
 ```
 
-- [click here! to see live demo]()
+- [click here! to see live demo](https://relaxed-kheer-37635b.netlify.app/)
 
 ## Buit with
 
